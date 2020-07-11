@@ -6,19 +6,55 @@ namespace LogicaProgramacao
     {
         static void Main(string[] args)
         {
-            int numero = 10;
+            // Operadores relacionais logicos
+            bool souRico = true;
+            double salario = 20000;
 
-            if (numero >= 101 )
+            if (souRico||salario >= 50000) 
             {
-                Console.WriteLine("Condição Verdadeira");
+                Console.WriteLine("Vc é rico!");
             }
-            else
-            {
-                Console.WriteLine("Condição Falsa");
-            }
+
+
+
+            //string sobremesa = "Pudim";
+            //bool estouAcimaDoPeso = false;
+
+            //if (estouAcimaDoPeso || sobremesa == "Pudim")
+            //{
+            //    Console.WriteLine("Comer sobremesa!");
+            //}
+            
+            //bool termineiTrabalho = false;
+            //bool estouComFome = true;
+
+            //if (!termineiTrabalho && estouComFome) 
+            //{
+            //    Console.WriteLine("almoçar");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Continuar Trabalhando!");
+            //}
+
+
+
+
+
+
+            //int numero = 10;
+            //bool boolean = true;
+            //if (numero != 10 && boolean == true)
+            //{
+            //    Console.WriteLine("Condição Verdadeira");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Condição Falsa");
+            //}
             ////Exressoes logicas e constantes
 
-          
+
             //string nome = "Diego!";
             //int idade = 37;
             //string bemvindo = $"Seja bem vindo,{nome}. Sua idade é de: {idade} anos.";
