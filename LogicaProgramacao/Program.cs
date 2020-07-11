@@ -6,14 +6,32 @@ namespace LogicaProgramacao
     {
         static void Main(string[] args)
         {
-            // Operadores relacionais logicos
-            bool souRico = true;
-            double salario = 20000;
 
-            if (souRico||salario >= 50000) 
-            {
-                Console.WriteLine("Vc é rico!");
-            }
+            // Entrada de Dados
+            Console.WriteLine("Digite o seu nome: ");
+            string nome = Console.ReadLine();
+            Console.WriteLine($"O seu nome é: {nome}");
+
+
+            //Casting /Parse
+            ////string idade = "20";
+            ////string idade2 = "30";
+            ////int somaIdades = Convert.ToInt32(idade) + Convert.ToInt32(idade2);
+            ////Console.WriteLine(idade + idade2);
+            ////Console.WriteLine(somaIdades);
+
+            //int idade = 20;
+            //string frase = "A minha idade é: ";
+            //Console.WriteLine(frase);
+
+            // Operadores relacionais logicos
+            //bool souRico = true;
+            //double salario = 20000;
+
+            //if (souRico||salario >= 50000) 
+            //{
+            //    Console.WriteLine("Vc é rico!");
+            //}
 
 
 
@@ -24,7 +42,7 @@ namespace LogicaProgramacao
             //{
             //    Console.WriteLine("Comer sobremesa!");
             //}
-            
+
             //bool termineiTrabalho = false;
             //bool estouComFome = true;
 
